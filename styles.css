@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+ --orange: #00ff1e;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+
+header {
+  background-color: #3aae1d;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 1rem; 
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+}
+
+.login-form-container {
+  display: none;
+}
+
+.home {
+  padding: 2rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; 
+  position: relative;
+  z-index: 1; 
+  border-radius: 10px;
+  color: #dfd6d6; 
+  padding: 1rem;
+
+  transform: translateY(24%);
+}
+
+h3 {
+  font-size: 4rem;
+  color: #f9f4f4;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #f3f8f1;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Controles de video */
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -33rem;
+}
+
+
+.vid-btn {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #333;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.vid-btn.active {
+  background-color: #fff;
+}
+
+/* Contenedor de video */
+.video-container {
+  margin: 2rem 0;
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+#video-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
