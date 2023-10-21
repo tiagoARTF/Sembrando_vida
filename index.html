@@ -4,12 +4,13 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title> </title>
+ <title>CoranAntioquia</title>
 
  
  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ <link rel="stylesheet" href="bootstrap.min.css">
 
  <link rel="stylesheet" href="styles.css">
 
@@ -17,23 +18,22 @@
 
 </head>
 
-<body>
+<body style="background-color: #228866;">
 
   <header>
 
     
   
-    <a href="#" class="logo"><span>CoranAntioquia</span></a>
+    <a href="#navb" class="logo"><span>CoranAntioquia</span></a>
     
-    <nav class="navbar">
+    <nav class="navbar" id="navb">
       <a href="#home">home</a>
       <a href="./dashboard.html">Dashboard</a>
       <a href="#miembros">Miembros</a>
     </nav>
   
     <div class="icons">
-      <i class="#" id="search-btn"></i>
-      <i class="#" id="login-btn"></i>
+     
     </div>
   
   </header>
@@ -48,10 +48,10 @@
 
 <section class="home" id="home">
   <div class="content">
-    <div class="text-overlay">
-      <h3>¡Sembrando Vida! - Cuidemos nuestro Planeta</h3>
-      <p>En nuestra página, te ofrecemos información valiosa sobre la siembra de árboles y cómo contribuir al cuidado del medio ambiente. Aprende sobre las diferentes especies de árboles, las mejores prácticas para plantarlos y cómo mantenerlos saludables. Únete a nosotros en la misión de hacer del mundo un lugar más verde y sostenible.</p>
-      <a href="#" class="btn">discover more</a>
+    <div  class="text-overlay">
+      <h3 style="font-size: 40px;">¡Sembrando Vida! - Cuidemos nuestro Planeta</h3>
+      <p style="padding-top: 30px;">En nuestra página, te ofrecemos información valiosa sobre la siembra de árboles y cómo contribuir al cuidado del medio ambiente. Aprende sobre las diferentes especies de árboles, las mejores prácticas para plantarlos y cómo mantenerlos saludables. Únete a nosotros en la misión de hacer del mundo un lugar más verde y sostenible.</p>
+      <a href="#description" class="btn" style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: #0bbc0b; background-color: azure;border-color: #0bbc0b;">descubrir mas</a>
     </div>
   </div>
 
@@ -69,8 +69,8 @@
 <section>
   <div class="container my-5">
       <div class="row justify-content-center">
-          <div class="col-8 text-center">
-              <h4>Siembra de Arboles</h4>
+          <div class="col-8 text-center" id="description">
+              <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Siembra de Arboles</h4>
               <p class="text-custom">"Nuestra misión es reforestar todas aquellas zonas afectadas por riesgos naturales o actividades humanas que han transformado el paisaje. Estamos convencidos de la importancia de preservar y recuperar dichos espacios naturales mediante la siembra de árboles, conservando las características del medio y mejorando las posibilidades de vida y agua."</p>
               <img src="img/arboles.png" alt="arboles" class="img-fluid w-25">
           </div>
@@ -80,7 +80,7 @@
 <section>
 
   <section>
-    <div class="row row-cols-1 row-cols-md-3">
+    <div class="row row-cols-1 row-cols-md-3 text-center">
       <div class="col">
        <div class="card h-100 shadow bg-success p-3">
           <h3>REFORESTACIONES</h3>
@@ -110,14 +110,14 @@
 
     <div class="footer-left">
 
-      <h3>Corp<span>Antioquia</span></h3>
+      <h3>Coran<span>Antioquia</span></h3>
 
       <p class="footer-links">
         <a href="https://github.com/jguerrac" class="link-1">Jhonatan Guerra</a>
         
         <a href="https://github.com/tiagoARTF">Santiago Arteaga</a>
       
-        <a href="#">Juan Esteban Franco</a>
+        <a href="https://github.com/JuanFranco143">Juan Esteban Franco</a>
       
         <a href="https://github.com/SrNobody20">Robinson Agudelo</a>
         
@@ -130,10 +130,8 @@
 
     <div class="footer-center"></div>
 
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<!-- custom js file link -->
-<script src="script.js"></script>
+
 
 </body>
 </html>
