@@ -79,7 +79,9 @@ header {
   z-index: 2;
   transform: translateY(44%);
 }
-
+a{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 h3 {
   font-size: 4rem;
   color: #f9f4f4;
